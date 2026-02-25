@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>M2 Pisos Vinílicos | Paulo K. Shim</title>
+  <title>Paulo Kihyen Shim | Cartão Digital</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,56 +12,94 @@
 
   <link rel="stylesheet" href="card.css">
 </head>
-<body>
 
+<body>
   <main class="card-container">
 
     <!-- CAPA -->
     <div class="cover">
-      <img src="fundo-m2.jpg" alt="Capa M2 Pisos">
+      <img src="fundo-m2.jpg" alt="Capa M2 Pisos Vinílicos">
     </div>
 
     <!-- PERFIL -->
     <div class="profile">
-      <img class="avatar" src="logo-m2.png" alt="M2 Pisos Vinílicos">
-      <h1>Paulo K. Shim</h1>
-      <h2>M2 – Pisos Vinílicos</h2>
-      <span class="role">Representante</span>
+      <img class="avatar" src="logo-m2.png" alt="Logo M2">
+      <h1>Paulo Kihyen Shim</h1>
+      <p class="subtitle">Pisos Vinílicos • Inovação que transforma espaços</p>
     </div>
 
-    <!-- BIO -->
-    <p class="bio">
-      Pisos Vinílicos LG Hausys para ambientes comerciais, residenciais e hospitalares.
-      Soluções modernas, duráveis e de alto padrão.
-    </p>
+    <!-- ABAS -->
+    <input type="radio" name="tab" id="tab-apresentacao" checked>
+    <input type="radio" name="tab" id="tab-contato">
 
-    <!-- AÇÕES -->
-    <div class="actions">
-
-      <a href="https://wa.me/5511996833477?text=Olá,%20vim%20pelo%20seu%20cartão%20digital!"
-         class="btn outline whatsapp" target="_blank">
-        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg" alt="WhatsApp">
-        WhatsApp
-      </a>
-
-      <a href="https://instagram.com/m2pisosvinilicos"
-         class="btn outline instagram" target="_blank">
-        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram">
-        Instagram
-      </a>
-
-      <a href="https://maps.app.goo.gl/QSFS1mKbTKEGbREP8"
-         class="btn outline maps" target="_blank">
-        📍 Localização
-      </a>
-
-      <a href="paulo-shim.vcf" class="btn outline save">
-        💾 Salvar contato
-      </a>
-
+    <div class="tabs">
+      <label for="tab-apresentacao" class="tab">Sobre</label>
+      <label for="tab-contato" class="tab">Contato</label>
     </div>
 
+    <div class="tab-content">
+
+      <!-- SOBRE -->
+      <section class="content apresentacao">
+
+        <div class="highlight reveal">
+          <h3>M2 Pisos Vinílicos</h3>
+          <p>
+            Pisos Vinílicos da LG, o equilíbrio perfeito entre tecnologia, design e durabilidade.
+            Diversas texturas que reproduzem madeira, pedra, cimento ou tons naturais,
+            proporcionando praticidade com sustentabilidade, alinhado às tendências contemporâneas
+            da arquitetura e design.
+          </p>
+        </div>
+
+        <h3 class="section-title reveal">Diferenciais</h3>
+
+        <div class="features reveal">
+          <div class="feature-card">✔ Durabilidade e resistência</div>
+          <div class="feature-card">✔ Conforto térmico e acústico</div>
+          <div class="feature-card">✔ Variedade de estilos e cores</div>
+          <div class="feature-card">✔ Fácil instalação e resistente à umidade</div>
+        </div>
+
+      </section>
+
+      <!-- CONTATO -->
+      <section class="content contato">
+        <div class="actions reveal">
+
+          <a href="https://wa.me/5511996833477?text=Olá,%20vim%20pelo%20cartão%20digital%20e%20gostaria%20de%20mais%20informações%20sobre%20pisos%20vinílicos." 
+             class="btn solid" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="">
+            Falar no WhatsApp
+          </a>
+
+          <a href="https://instagram.com/m2pisosvinilicos" class="btn outline" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="">
+            Instagram
+          </a>
+
+          <a href="mailto:comercialm2pisos@gmail.com?subject=Contato%20pelo%20Cartão%20Digital%20M2" class="btn outline">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="">
+            Enviar e-mail
+          </a>
+
+          <a href="https://www.google.com/maps/search/?api=1&query=Rua+Alberto+I,+248+Sao+Paulo+SP" 
+             target="_blank" class="btn outline">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googlemaps.svg" alt="">
+            Localização
+          </a>
+
+          <a href="paulo-shim.vcf" class="btn outline">
+            💾 Salvar contato
+          </a>
+
+        </div>
+      </section>
+
+    </div>
   </main>
 
+  <script src="script.js"></script>
 </body>
+
 </html>

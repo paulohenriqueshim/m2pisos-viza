@@ -1,6 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
-N:;M2 Pisos;;;
-FN:M2 Pisos
-TEL;TYPE=CELL:5511996833477
+FN:Paulo Kihyen Shim
+ORG:M2 Pisos Vinílicos
+TITLE:Pisos Vinílicos
+TEL;TYPE=CELL:+5511996833477
+TEL;TYPE=WORK:+551126151018
+EMAIL:comercialm2pisos@gmail.com
+ADR;TYPE=WORK:;;Rua Alberto I, 248;São Paulo;SP;;Brasil
 END:VCARD
